@@ -31,6 +31,7 @@ class BoxHandler {
         //? extends Toy o = new Toy();
         //즉 자료형의 일치가 이루어지지않는다.
         //그렇기에 컴파일러는 프로그래머에게 set 메소드 매개변수의 o의 자료형을 Toy로 변경하라 하는것이다.
+        //책 P.528 하단부분을 참고하면, 어떤 경우는 가능하지만, 또 어떤 경우는 안되는 불확실성을 보여주기에 "컴파일러는 이 문장 자체를 허용하지 않는다". 라고 적혀있다.
     }
     public static void inBox(Box<? super Toy> box, Toy n) { //Toy n = new Toy();
         box.set(n);
