@@ -1,2 +1,2 @@
 This is Chapter25
-Following code on the repository is what I learned from this chapter
+Following code on the repository is what I learned from this chapter.
