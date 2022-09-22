@@ -1,1 +1,2 @@
 This is Chapter34
+This Chapter is about Thread and the usage.
